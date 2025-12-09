@@ -17,7 +17,7 @@ A professional **Laravel 12 Product CRUD System** with **Excel/CSV Import & Expo
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Framework: Laravel 12  
 - Frontend: Blade + Bootstrap 5  
