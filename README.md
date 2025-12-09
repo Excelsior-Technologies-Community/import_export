@@ -1,42 +1,45 @@
-📦 laravel12-product-crud-with-import-export
+# 📦 laravel12-product-crud-with-import-export
 
-A professional Laravel 12 Product CRUD System with Excel/CSV Import & Export, multiple image upload, soft deletes, and a clean Bootstrap 5 interface.
+A professional **Laravel 12 Product CRUD System** with **Excel/CSV Import & Export**, multiple image upload, soft deletes, and a clean **Bootstrap 5** interface.
 
-🚀 Features
+---
 
-✅ Full CRUD Operations (Create, Read, Update, Delete)
-✅ Soft Deletes with Trash & Restore functionality
-✅ Multiple Image Upload per product
-✅ Image Preview & Delete support
-✅ Excel / CSV Import & Export using maatwebsite/excel
-✅ Form Validation
-✅ Pagination
-✅ Responsive UI using Bootstrap 5
+## 🚀 Features
 
-🛠️ Tech Stack
+✅ Full CRUD Operations (Create, Read, Update, Delete)  
+✅ Soft Deletes with Trash & Restore functionality  
+✅ Multiple Image Upload per product  
+✅ Image Preview & Delete support  
+✅ Excel / CSV Import & Export using `maatwebsite/excel`  
+✅ Form Validation  
+✅ Pagination  
+✅ Responsive UI using **Bootstrap 5**
 
-Framework: Laravel 12
+---
 
-Frontend: Blade + Bootstrap 5
+## 🛠️ Tech Stack
 
-Database: MySQL
+- Framework: Laravel 12  
+- Frontend: Blade + Bootstrap 5  
+- Database: MySQL  
+- Excel Support: Maatwebsite / Laravel-Excel  
 
-Excel Support: Maatwebsite / Laravel-Excel
+---
 
-📦 Suggested GitHub Repository Names
+## 📦 Suggested Repository Names
 
 You can use any of these repo names:
 
+```text
 laravel12-product-crud
-
 laravel12-crud-with-import-export
-
 laravel12-import-export-products
-
 product-management-laravel12
 
-For Import/Export focus repo:
-👉 Recommended:
+
+
+Recommended for Import/Export focus:
+
 laravel12-import-export
 
 📥 Installation Guide
@@ -76,7 +79,7 @@ php artisan vendor:publish --provider="Maatwebsite\Excel\ExcelServiceProvider" -
 php artisan serve
 
 
-Visit in browser:
+Open in browser:
 
 http://127.0.0.1:8000
 
@@ -98,7 +101,6 @@ resources/
            ├── show.blade.php
            └── trash.blade.php
 
-
 📊 Excel / CSV Import & Export
 ✅ Supported Import Columns
 
@@ -110,7 +112,7 @@ name, description, price, quantity, category, sku
 
 Export all products as .xlsx or .csv
 
-Download from the product list page
+Download directly from the Product List page
 
 ✅ Import Functionality
 
